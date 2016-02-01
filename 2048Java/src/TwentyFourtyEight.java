@@ -4,8 +4,8 @@
  */
 public class TwentyFourtyEight implements ITwentyFourtyEight
 {
-    /// The board containing the current state of the game.
-    private int[][] board;
+    /// The 4*4 board containing the current state of the game.
+    private int[][] board = new int[4][4];
     
     /**
      * Swipes the board from bottom to top.
